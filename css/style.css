@@ -296,8 +296,7 @@ vertical-align: top;
 
 
 
-@media (max-width:800px){
-
+@media only screen and (max-width:800px){
 .navbar li{
 display:block;
 padding-bottom:20px;
@@ -315,6 +314,10 @@ padding-bottom:20px;
 color: yellow;
 }
 
+.footer{
+    margin-bottom: 200px;
+}
+
 .navbar ul{
     display: none;
 }
@@ -330,7 +333,7 @@ h1{
     margin-bottom:50px;
     }
     
-    .image{
+    .details .image{
     display:block;
     width:100%;
     border: 2px solid black;
@@ -375,8 +378,8 @@ overflow:hidden;
 padding:10px;
 }
 
-.image{
-    padding:10px;
+.details .image{
+    padding:30px;
     display:block;
     width:90%;
     border: 2px solid black;
