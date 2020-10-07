@@ -26,18 +26,12 @@
     </div>
     
     <div class="navbar">
-        <i class="fa fa-bars white right" id="mobile_bar"></i>
-        <ul id="navigation">
-            <li><a href="index.html">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="book online.html">Book Online</a></li>
-        </ul>
-
+    <?php
+       require_once"includes/header.php";
+       ?>
     </div>
 
-    <footer class="footer">&copy 2020 by Orji Michael. Proudly Created With HTML, CSS and Javascript
+    <footer class="footer">&copy 2020 Orji Michael. Proudly Created With HTML, CSS and Javascript
     </footer>
 </div>
 <script src="jquery.js"></script>

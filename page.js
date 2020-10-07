@@ -10,8 +10,8 @@
 
 // }
 
-$(document).ready(function(){
-
+$(document).ready(
+    function(){
  // nav bar toggle
  $("#mobile_bar").click(function(){
      $("#navigation").slideToggle();
